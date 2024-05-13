@@ -1,6 +1,6 @@
 {
   "name": "@quni/vite-qiankun-plugin",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "",
   "main": "./cjs/vite-plugin-qiankun.js",
   "module": "./esm/vite-plugin-qiankun.mjs",
@@ -18,7 +18,8 @@
     "pnpm": ">=7.0.0"
   },
   "files": [
-    "cli"
+    "cjs",
+    "esm"
   ],
   "publishConfig": {
     "access": "public"
