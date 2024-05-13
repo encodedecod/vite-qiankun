@@ -1,0 +1,8 @@
+.history
+.vscode
+.idea
+.eslintcache
+dist
+node_modules
+/npm/cjs
+/npm/esm

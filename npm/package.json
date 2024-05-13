@@ -1,0 +1,36 @@
+{
+  "name": "@quni/vite-qiankun-plugin",
+  "version": "1.0.3",
+  "description": "",
+  "main": "./cjs/vite-plugin-qiankun.js",
+  "module": "./esm/vite-plugin-qiankun.mjs",
+  "types": "./cjs/vite-plugin-qiankun.d.ts",
+  "exports": {
+    ".": {
+      "require": "./cjs/vite-plugin-qiankun.js",
+      "import": "./esm/vite-plugin-qiankun.mjs",
+      "types": "./cjs/vite-plugin-qiankun.d.ts"
+    },
+    "./*": "./*"
+  },
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=7.0.0"
+  },
+  "files": [
+    "cli"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "vite": "^5.2.11"
+  }
+}
